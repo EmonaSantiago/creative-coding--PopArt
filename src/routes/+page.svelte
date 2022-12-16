@@ -36,6 +36,13 @@
     </p>
 
     <p />
+    <div id="scroll-text">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/013/079/618/original/speech-bubble-comic-pop-art-design-png.png"
+        alt="pop-art"
+        width="200em"
+      />
+    </div>
   </section>
   <section id="chapters">
     <div class="1.0">
