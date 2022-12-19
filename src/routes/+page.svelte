@@ -160,10 +160,9 @@
   }
 
   .logo {
-    color: logo;
-    float: right;
+    color: white;
   }
-  h1 {
+  #hero-section h1 {
     top: 0%;
     position: sticky;
     box-shadow: inset 0 0 0 0 #ffffff;
@@ -171,10 +170,21 @@
     margin: 0 -0.25rem;
     padding: 0 0.25rem;
     transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-family: "Raleway", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 8px 8px #530988, 20px 20px #000000;
   }
 
-  h1:hover {
-    box-shadow: inset 2000px 0 0 0 yellow;
+  #hero-section h1:hover {
+    box-shadow: inset 2000px 0 0 0 rgb(241, 241, 39);
     color: black;
   }
 
